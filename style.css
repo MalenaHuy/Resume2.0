@@ -1,23 +1,27 @@
 .emoji{
-    width: 150px;
-    height: auto
+    width: 100px;
+    height: auto;
 }
 
 .emojiAndName{
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color:#778899;
+}
+
+.navbar{
+    background-color: rgb(14, 51, 83);
+    align-items: center;
+    color: black;
     
 }
 
-.head{
-    margin-top: 30px;
+a{
+    margin: 5px;
 }
 
-@media screen and (max-width: 400px){
-    #header{
-        display:flex;
-        flex-direction: column;
-    }
-}
 
 @media screen and (max-width:700px){
     #header {
@@ -26,3 +30,16 @@
     }
 }
 
+@media screen and (max-width: 470px){
+    .emojiAndName{
+        display: flex;
+        flex-direction:column;
+    }
+    #header{
+        display:flex;
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+}
