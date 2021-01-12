@@ -1,6 +1,6 @@
 .emoji{
     width: 100px;
-    height: auto;
+    height: auto; 
 }
 
 .head{
@@ -20,7 +20,6 @@
     background-color: rgb(14, 51, 83);
     align-items: center;
     color: black;
-    
 }
 
 a{
@@ -69,7 +68,46 @@ a{
     font-family: "Audiowide", sans-serif;
 }
 
+.homePic{
+    width: 40px;
+    
+}
 
+.first{
+    padding-top: 10px;
+}
+
+.phonePic{
+    width: 40px;
+}
+
+.emailPic{
+    width: 40px;
+}
+
+.linkinPic{
+    width: 40px;
+}
+
+.contactInfor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    background-color:#778899;
+    flex-direction: row;
+    text-indent: 1.5em;
+    padding-left: 50px;
+    padding-right: 50px; 
+    padding-bottom: 5px;
+}
+
+/* .adress{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
 
 @media screen and (max-width:700px){
     #header {
