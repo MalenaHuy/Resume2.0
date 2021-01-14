@@ -31,6 +31,8 @@ a{
     width: 250px;
 }
 
+
+
 .nameMajor{
     display: flex;
     flex-direction: column;
@@ -68,6 +70,26 @@ a{
     font-family: "Audiowide", sans-serif;
 }
 
+.data3Pic{
+    display: flex;
+    flex-direction: left;
+    width: 350px;
+    background-color: #778899;
+}
+
+#contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #778899;
+}
+
+.address{
+    display: flex;
+    flex-direction: row;
+}
+
 .homePic{
     width: 40px;
     
@@ -86,6 +108,11 @@ a{
 }
 
 .linkinPic{
+    width: 40px;
+    
+}
+
+.gitPic{
     width: 40px;
 }
 
@@ -131,5 +158,9 @@ a{
 
     #mainContent{
         flex-direction: column;
+    }
+
+    #contact{
+        flex-direction: column-reverse
     }
 }
