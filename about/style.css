@@ -1,0 +1,59 @@
+#major{
+    background-color: #778899;
+}
+.main{
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Audiowide", sans-serif;
+    justify-content: center;
+}
+
+.school{
+    text-align:center;
+    font-family: "Audiowide", sans-serif;
+}
+
+.flexbtwPicAndInfor{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-direction: row;
+    text-indent: 1.5em;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.schoolImg{
+    width: 150px;
+    align-self: center;
+    
+}
+
+.infor{
+    padding-left: 20px;
+    padding-top: 25px;
+    /* border-bottom: 25px; */
+}
+
+.skill{
+    background-color: #778899;
+    padding-top: 25px;
+}
+
+.allSkill{
+    text-align: left;
+    text-indent: 45px;
+}
+
+@media screen and (max-width:700px){
+    #header {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 516px){
+    .flexbtwPicAndInfor{
+        flex-direction: column;
+    } 
+}
