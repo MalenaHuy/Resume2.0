@@ -1,0 +1,38 @@
+.main{
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: #778899;
+}
+
+.description{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.list{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#clickButton{
+    width: 50%;
+}
+
+#centerButton{
+    text-align: center;
+}
+
+.picDown{
+    background-color: #778899;
+    padding-bottom: 15px;
+}
+.picFun{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    background-color:#778899 ;
+}
