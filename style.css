@@ -85,6 +85,7 @@ a{
     align-items: center;
     justify-content: center;
     background-color: #778899;
+
 }
 
 .address{
@@ -140,6 +141,7 @@ a{
 
 footer{
     background-color: #778899;
+    padding-bottom: 50px;
 }
 
 @media screen and (max-width:700px){
