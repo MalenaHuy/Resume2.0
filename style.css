@@ -28,6 +28,8 @@ a{
 
 
 .myPic{
+    width: 250px;
+    padding-top: 20px;
     background: #ddd;
     margin: 1rem;
     padding: 1rem;
