@@ -34,7 +34,7 @@ a{
     margin: 1rem;
     /* padding: 1rem; */
     max-width: 400px;
-    margin: 2rem auto;
+    /* margin: 2rem auto; */
     font-family: "Open Sans", sans-serif;
 }
 
@@ -53,6 +53,7 @@ a{
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
     background-color:#778899;
     padding: 5px;
